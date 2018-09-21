@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '4.0'
   s.source_files = 'code/Classes/**/*', 'code/Classes/Core/**/*', 'code/Classes/Permissions/**/*'
   s.exclude_files = 'Example/*'
+  s.dependency 'PMAlertController'
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'code/Classes/Core/**/*.swift'
